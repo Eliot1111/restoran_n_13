@@ -27,7 +27,7 @@ export function About() {
             <img src={photos.interiorMirror} alt="Интерьер ресторана с зеркалом и мягким светом" />
           </figure>
           <figure className="photo-frame photo-frame--offset">
-            <img src={photos.tableWide} alt="Сервированный стол с цветами" />
+            <img src={photos.terrace} alt="Светлая терраса с деревянной лавкой и подушками" />
           </figure>
           <figure className="photo-frame photo-frame--small">
             <img src={photos.dishSalad} alt="Салат с креветками и овощами" />

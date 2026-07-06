@@ -1,11 +1,11 @@
 import { useMemo, useState } from "react";
 import { ArrowRight } from "lucide-react";
-import { menuSections } from "../data/menuData.js";
+import { compactMenuSections } from "../data/compactMenuData.js";
 
 export function MenuSection() {
-  const [activeTitle, setActiveTitle] = useState(menuSections[0].title);
+  const [activeTitle, setActiveTitle] = useState(compactMenuSections[0].title);
   const activeSection = useMemo(
-    () => menuSections.find((section) => section.title === activeTitle) ?? menuSections[0],
+    () => compactMenuSections.find((section) => section.title === activeTitle) ?? compactMenuSections[0],
     [activeTitle],
   );
 
@@ -22,7 +22,7 @@ export function MenuSection() {
 
       <div className="menu-shell" data-reveal>
         <div className="menu-tabs" role="tablist" aria-label="Разделы меню">
-          {menuSections.map((section) => (
+          {compactMenuSections.map((section) => (
             <button
               className={`menu-tab ${section.title === activeTitle ? "menu-tab--active" : ""}`}
               key={section.title}

@@ -22,12 +22,8 @@ export const photos = {
 
 export const galleryPhotos = [
   { src: diningRoom, alt: "Зал ресторана с мягким светом и круглыми столами", span: "wide" },
-  { src: dishSalad, alt: "Салат с креветками и овощами", span: "tall" },
-  { src: interiorMirror, alt: "Интерьер с графитовыми стенами, зеркалом и подвесными светильниками" },
+  { src: interiorMirror, alt: "Интерьер с графитовыми стенами, зеркалом и подвесными светильниками", span: "tall" },
   { src: tableWide, alt: "Сервированный стол с цветами и синими стаканами", span: "wide" },
-  { src: terrace, alt: "Светлая терраса с деревянной лавкой и подушками" },
-  { src: focaccia, alt: "Фокачча с мортаделлой и напитком", span: "tall" },
-  { src: dessert, alt: "Творожный десерт с ягодами" },
-  { src: shakshuka, alt: "Горячее блюдо в медной сковороде" },
-  { src: gardenDessert, alt: "Десерт у окна в зеленом дворике", span: "wide" },
+  { src: dishSalad, alt: "Салат с креветками и овощами" },
+  { src: focaccia, alt: "Фокачча с мортаделлой и напитком" },
 ];
